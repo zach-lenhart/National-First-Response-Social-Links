@@ -145,3 +145,8 @@ i:nth-child(4){
  .tiny__link:nth-child(3){
   padding-right: none;
  }
+
+ .nfr__mini--logo {
+  width: 27px;
+  height: 26px;
+ }
