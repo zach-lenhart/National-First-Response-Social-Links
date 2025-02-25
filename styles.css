@@ -36,8 +36,9 @@ a {
     color: white;
   }
   .logo__img--wrapper {
-    width: 80%;
-    max-width: 300px;
+   width: 60%;
+    max-width: 250px;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
