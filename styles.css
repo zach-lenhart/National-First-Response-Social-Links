@@ -154,16 +154,20 @@ i{
 .logo__nav--wrapper {
   display: flex;
   align-items: center;
+ height: 180px;
+ padding-bottom: 24px;
+ margin-bottom: 24px;
   
 }
 .red {
   font-size: 22px;
   letter-spacing: 1.5px;
   font-weight: 700;
-  color: red;
+  color: darkred;
 }
 .trademark {
-  font-size: 20px;
+  font-size: 18px;
+  
 }
 
 .top--line {
@@ -183,3 +187,28 @@ i{
   justify-content: center;
 }
 
+@media (max-width: 280px) {
+  .trademark {
+    font-size: 14px;
+    
+  }
+  
+  .top--line {
+    font-weight: 500;
+    margin-top: 52px;
+  }
+  .logo__text {
+    line-height: 1.3;
+  
+  }
+  .italics {
+    font-size: 9px;
+  }
+  .red {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: darkred;
+  }
+  
+}
